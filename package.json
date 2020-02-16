@@ -1,0 +1,26 @@
+{
+  "name": "github-actions-problem-matcher-typings",
+  "version": "1.0.0",
+  "description": "TypeScript typings for the Github Actions problem matcher file format",
+  "main": "",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "eslint . --ext .js,.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xt0rted/github-actions-problem-matcher-typings.git"
+  },
+  "author": "xt0rted",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xt0rted/github-actions-problem-matcher-typings/issues"
+  },
+  "homepage": "https://github.com/xt0rted/github-actions-problem-matcher-typings#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.19.2",
+    "@typescript-eslint/parser": "^2.19.2",
+    "eslint": "^6.8.0",
+    "typescript": "^3.7.5"
+  }
+}
