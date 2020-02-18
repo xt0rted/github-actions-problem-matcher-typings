@@ -3,7 +3,11 @@
  */
 export type Severity =
   | "error"
-  | "warning"
+  | "warning";
+
+export interface ProblemMatcherDocument {
+  problemMatcher: ProblemMatcher[];
+}
 
 /**
  * Problem matcher
