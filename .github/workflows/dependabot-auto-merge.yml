@@ -30,7 +30,7 @@ jobs:
       - name: Dependabot ecosystem
         id: metadata
         shell: pwsh
-        runs: |
+        run: |
           $dependency = "${{ steps.dependabot-metadata.outputs.dependency-names }}".Split(',')[0]
 
           if ($dependency.StartsWith("@") -or !$dependency.Contains("/")) {
