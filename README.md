@@ -23,7 +23,7 @@ describe("problemMatcher", () => {
 
 To load the problem matcher as a module you'll need to update your `tsconfig.json` like so:
 
-```json
+```jsonc
 {
   "compilerOptions": {
     "resolveJsonModule": true /* Allows for importing .json files as modules. */
